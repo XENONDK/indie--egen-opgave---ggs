@@ -1,0 +1,10 @@
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap');
+
+/* css modules */
+@import url(base.css);
+@import url(variabler.css);
+@import url(header.css);
+@import url(frontpage.css);
+@import url(footer.css);
+@import url(select.css);
