@@ -1,0 +1,28 @@
+.about{
+    background-color: #262424;
+    width: 95%;
+    height: 800px;
+    margin: 15px auto 15px auto;
+    padding: 15px;
+    color: white;
+
+}
+
+.origin{
+    margin-bottom: 30px;
+}
+
+.about p{
+    font-family: var(--oswald);
+}
+
+.about img{
+    width: 160px;
+}
+
+.daisukeContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
