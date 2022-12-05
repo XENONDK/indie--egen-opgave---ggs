@@ -1,0 +1,91 @@
+/* SLIDER */
+.karakterslider-container{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+.slide{
+    display:none;
+    animation: fade 1.5s;
+}
+
+@keyframes fade{
+    from {
+        opacity: 0.4;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+.slide img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.slide video{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.text{
+    position: absolute;
+    bottom: 4%;
+    width:100%;
+    text-align: center;
+    color: #f2f2f2;
+}
+
+.karakterprev, .karakternext{
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    width:auto;
+    padding:16px;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgba(0,0,0,0);
+    user-select: none;
+    border-radius: 0 3px 3px 0;
+    transition: all 0.5s;
+}
+.karakternext{
+    right:-12%;
+    border-radius: 3px 0 0 3px;
+}
+
+.karakterprev{
+    left:-12%;
+    border-radius: 3px 0 0 3px;
+}
+
+.karakterprev:hover, .karakternext:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+
+.karakterdots{
+    padding-top:16px;
+    text-align: center;
+    user-select: none;
+    position: absolute;
+    bottom: 33%;
+    width: 100%;
+}
+.karakterdot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin:0 4px;
+    background-color: #bbb;
+    display: inline-block;
+    transform: rotate(45deg);
+}
+
+.active, .karakterdot:hover{
+    background-color: #717171;
+}
