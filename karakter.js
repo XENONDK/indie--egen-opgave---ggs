@@ -80,12 +80,11 @@ let characterInfo = {
     This new life has brought them peace of mind, and they now enjoy their share of happiness.`},
 
     "Bridget": {name: "BRIDGET", difficulty: 4, cTitle: "Free-form Tricky Spinner", sectitle: "Flying Unrestrained With Yo-Yo Mastery", description: `Bridget was born one of two twin sons of a multi-billionaire couple and was given only the best training and tutoring as a child. However, Bridget's upbringing was what one would expect for a daughter of a high-society family instead of a son.
-    There was a reason for this: Bridget's hometown had a superstitious belief that male twins brought misfortune. The townspeople were so embedded in this belief that they insisted the younger of any set of male twins be put to death or be exiled from the town upon birth. Unable to swallow either of the options, the twins' parents raised Bridget as a daughter.
-    While Bridget strove to put on a happy front, these efforts only seemed to cause Bridget's parents more pain. Bridget began to think that behaving like a man and bringing home a vast array of riches would prove that the superstitions were unfounded.
-    Although unsuccessful in capturing Dizzy for her bounty, Bridget showed talent as a bounty hunter and managed to bring home great wealth. This led to the village superstition fading, but it also left Bridget without a goal.
-    Bridget now works as a bounty hunter while searching for a purpose.`, img: "img/characters/fullSizeCharacters/full-bridget.webp"},
+     Unable to swallow either of the options, the twins' parents raised Bridget as a daughter.
+    While Bridget strove to put on a happy front, these efforts only seemed to cause Bridget's parents more pain. This led to the village superstition fading, but it also left Bridget without a goal.
+    Bridget now works as a bounty hunter while searching for a purpose.`, img: "img/characters/fullSizeCharacters/full-bridget.webp","slideImgs": {slidevid: "img/characters/sliderkarakter/bridget/bridget.mp4", slideimg1:"img/characters/sliderkarakter/bridget/bridget1.jpg", slideimg2:"img/characters/sliderkarakter/bridget/bridget2.jpg", slideimg3: "img/characters/sliderkarakter/bridget/bridget3.jpg"}},
 
-    "Sin-Kiske": {name: "SIN KISKE", cTitle: "Chasing down his prey with his far reaching flag", difficulty: 4, description: "He is the child of Ky Kiske, Allied King of Illyria, and Dizzy, a half-Gear, making him one-quarter Gear. Ky entrusted him to Sol as a child to avoid unwanted attention due to his incredible rate of growth caused by his Gear blood. Sol’s education leaned a bit too far into survival (self-admittedly), leading to Sin now being strong but mischievous and somewhat lacking in the academic department. Despite his looks, he’s actually not even ten years old yet, and is still rather immature mentally. He’s optimistic and doesn’t think too deeply about things. He could be called clueless at worst, and innocent at best. His simplistic thinking, however, can lead to a breakthrough in handling situations at times.", sectitle: "Ever-growing wild boy", img: "img/characters/fullSizeCharacters/full-sin.webp", "slideImgs": {slidevid: "img/characters/sliderkarakter/sin/sin.mp4", slideimg1:"img/characters/sliderkarakter/sin/sin1.jpg", slideimg2:"img/characters/sliderkarakter/sin/sin2.jpg", slideimg3: "img/characters/sliderkarakter/sin/sin3.jpg"}}
+    "Sin-Kiske": {name: "SIN KISKE", cTitle: "Chasing down his prey with his far reaching flag", difficulty: 4, description: "He is the child of Ky Kiske, Allied King of Illyria, and Dizzy, a half-Gear, making him one-quarter Gear. Ky entrusted him to Sol as a child to avoid unwanted attention due to his incredible rate of growth caused by his Gear blood.<br><br><br> Sol’s education leaned a bit too far into survival (self-admittedly), leading to Sin now being strong but mischievous and somewhat lacking in the academic department. Despite his looks, he’s actually not even ten years old yet, and is still rather immature mentally. He’s optimistic and doesn’t think too deeply about things.<br><br> He could be called clueless at worst, and innocent at best. His simplistic thinking, however, can lead to a breakthrough in handling situations at times.", sectitle: "Ever-growing wild boy", img: "img/characters/fullSizeCharacters/full-sin.webp", "slideImgs": {slidevid: "img/characters/sliderkarakter/sin/sin.mp4", slideimg1:"img/characters/sliderkarakter/sin/sin1.jpg", slideimg2:"img/characters/sliderkarakter/sin/sin2.jpg", slideimg3: "img/characters/sliderkarakter/sin/sin3.jpg"}}
 }
 
 let character = characterInfo[urlObject.searchParams.get("hero")]
@@ -100,3 +99,23 @@ slideOne.setAttribute("src", character.slideImgs.slidevid)
 slideTwo.setAttribute("src", character.slideImgs.slideimg1)
 slideThree.setAttribute("src", character.slideImgs.slideimg2)
 slideFour.setAttribute("src", character.slideImgs.slideimg3)
+
+if (difficultyLevel.innerHTML == 1) {
+    difficultyLevel.innerHTML += "⭐"
+}
+
+if (difficultyLevel.innerHTML == 2) {
+    difficultyLevel.innerHTML += "⭐⭐"
+}
+
+if (difficultyLevel.innerHTML == 3) {
+    difficultyLevel.innerHTML += "⭐⭐⭐"
+}
+
+if (difficultyLevel.innerHTML == 4) {
+    difficultyLevel.innerHTML += "⭐⭐⭐⭐"
+}
+
+if (difficultyLevel.innerHTML == 5) {
+    difficultyLevel.innerHTML += "⭐⭐⭐⭐⭐"
+}

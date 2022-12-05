@@ -21,7 +21,7 @@
                 <a href="karakterSelect.html">Character select</a>
             </li>
             <li>
-                <a href="">About GG</a>
+                <a href="about.html">About GG</a>
             </li>
             <li>
                 <a href=""> How to play</a>
@@ -34,52 +34,64 @@
 
     <section class="karakter">
 
-        <h1 id="characterName"></h1>
-        <h3 id="difficultyLevel"></h3>
-        <div class="characterDetails">
-            <h2 id="title"></h2>
-            <h2 id="secTitle"></h2>
-            <p id="desc"></p>
+        <div class="full-page">
+
+            <div class="half-one">
+
+                <h1 id="characterName"></h1>
+                <h3 id="difficultyLevel"></h3>
+
+                <div class="characterDetails">
+                    <h2 id="title"></h2>
+                    <h2 id="secTitle"></h2>
+                    <p id="desc"></p>
+                </div>
+
+            </div>
+
+            <div class="half-two">
+                <img src="" id="image">
+            </div>
         </div>
 
-        <img src="" id="image">
+        <div class="slider">
 
         <div class="karakterslider-container">
             <figure class="slide">
-               <video src="" id="slideOne" type="video/mp4" controls></video>
-                
+                <video src="" id="slideOne" type="video/mp4" controls></video>
+
             </figure>
-    
+
             <figure class="slide fade">
                 <img src="" alt="" id="slideTwo">
-                 
-             </figure>
-    
-             <figure class="slide fade">
+
+            </figure>
+
+            <figure class="slide fade">
                 <img src="" alt="" id="slideThree">
-                 
-             </figure>
-    
-             <figure class="slide fade">
+
+            </figure>
+
+            <figure class="slide fade">
                 <img src="" alt="" id="slideFour">
-                 
-             </figure>
-    
-             
-             <!-- previous og next knapper -->
-             <a class="karakterprev" onclick="plusSlides(-1)">&#10094;</a>
-             <a class="karakternext" onclick="plusSlides(1)">&#10095;</a>
-             
-             
-             <div class="karakterdots">
+
+            </figure>
+
+
+            <!-- previous og next knapper -->
+            <a class="karakterprev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="karakternext" onclick="plusSlides(1)">&#10095;</a>
+
+
+            <div class="karakterdots">
                 <span class="karakterdot" onclick="currentSlide(1)"></span>
                 <span class="karakterdot" onclick="currentSlide(2)"></span>
                 <span class="karakterdot" onclick="currentSlide(3)"></span>
                 <span class="karakterdot" onclick="currentSlide(4)"></span>
-             </div>
-             
             </div>
-            
+
+        </div>
+    </div>
 
     </section>
 

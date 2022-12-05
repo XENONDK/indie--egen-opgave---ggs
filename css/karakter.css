@@ -1,3 +1,79 @@
+
+
+.characterDetails{
+    width: 520px;
+    height: 520px;
+    background-color: #262424;
+    color: white;
+    margin: auto;
+    margin-top: 2%;
+    padding: 10px;
+}
+
+#characterName{
+    font-size: 40px;
+    text-align: center;
+}
+
+#title, #secTitle{
+    text-align: center;
+    padding: 2px;
+    font-family: var(--oswald);
+    
+}
+
+#title{
+    font-size: 25px;
+}
+
+#secTitle{
+    padding-bottom: 10px;
+   font-size: 25px;
+}
+
+#desc{
+    font-weight: lighter;
+}
+
+.full-page{
+    display: flex;
+    height: 605px;
+}
+
+.half-one{
+    width: 50%;
+}
+
+.half-two{
+    width: 50%;
+}
+
+#image{
+  
+    width: 100%; 
+}
+
+#difficultyLevel{
+   
+    text-align: center;
+}
+
+.slider{
+    width: 50%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* SLIDER */
 .karakterslider-container{
     position: relative;
