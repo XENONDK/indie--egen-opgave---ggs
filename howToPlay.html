@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Play</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <h1>Guilty Gear -Strive-</h1>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="karakterSelect.html">Character select</a>
+            </li>
+            <li>
+                <a href="about.html">About GG</a>
+            </li>
+            <li>
+                <a href="howToPlay.html"> How to play</a>
+            </li>
+            <li>
+                <a href="joinTheFight.html">Join the fight</a>
+            </li>
+        </ul>
+    </header>
+
+    <section>
+        <!-- tab links/ tab select -->
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'basics')" id="defaultOpen">Basic's</button>
+            <button class="tablinks" onclick="openTab(event, 'specials')">Special's</button>
+            <button class="tablinks" onclick="openTab(event, 'combos')">Combo's</button>
+        </div>
+
+        <!-- tab content -->
+        <div class="tabcontent" id="basics">
+            <h2>basics</h2>
+            <p>
+                Lorem ipsum dolor sit amet.
+                Laborum eligendi excepturi cumque modi!
+                Ex ullam unde cumque facilis.
+                Recusandae unde magnam dolores ipsam?
+                Exercitationem dignissimos ut vero dolorem?
+            </p>
+            <span onclick="this.parentElement.style.display='none'">x</span>
+        </div>
+
+        <div class="tabcontent" id="specials">
+            <h2>Specials</h2>
+            <p>
+                Lorem ipsum dolor sit amet.
+                Laborum eligendi excepturi cumque modi!
+                Ex ullam unde cumque facilis.
+                Recusandae unde magnam dolores ipsam?
+                Exercitationem dignissimos ut vero dolorem?
+            </p>
+            <span onclick="this.parentElement.style.display='none'">x</span>
+        </div>
+
+        <div class="tabcontent" id="combos">
+            <h2>combos</h2>
+            <p>
+                Lorem ipsum dolor sit amet.
+                Laborum eligendi excepturi cumque modi!
+                Ex ullam unde cumque facilis.
+                Recusandae unde magnam dolores ipsam?
+                Exercitationem dignissimos ut vero dolorem?
+            </p>
+            <span onclick="this.parentElement.style.display='none'">x</span>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="formDiv">
+            <form class="form">
+                <h2> -- Contact us --</h2>
+                <label for="navn">name --- </label>
+                <input type="text" name="navn" id="navn" placeholder="Skriv dit navn...">
+
+                <label for="email">email --- </label>
+                <input type="email" name="email" id="email" placeholder="Skriv din email...">
+
+                <label for="besked">Message --- </label>
+                <textarea name="besked" id="besked" placeholder="Skriv besked..."></textarea>
+
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </footer>
+
+    <script src="tabs.js"></script>
+</body>
+</html>

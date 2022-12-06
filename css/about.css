@@ -5,11 +5,22 @@
     margin: 15px auto 15px auto;
     padding: 15px;
     color: white;
+    border-radius: 8px;
+}
 
+.about h2{
+    font-size: 30px;
+    font-family: var(--oswald);
+}
+
+.about h3{
+    font-family: var(--oswald);
+    font-weight: bold;
 }
 
 .origin{
-    margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .about p{
@@ -25,4 +36,6 @@
     display: flex;
     justify-content: space-between;
     gap: 15px;
+   
 }
+

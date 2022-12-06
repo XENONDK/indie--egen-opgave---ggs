@@ -1,0 +1,43 @@
+.hidden figure{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.hidden{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.join{
+    display: flex;
+    background-color: #262424;
+    margin: 24px;
+    width: 500px;
+    height: 270px;
+    padding: 16px;
+}
+
+#link{
+    width: 300px;
+    height: 30px;
+    color: #575dff;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkwrap a{
+    background-color: white;
+    color: #575dff;
+    text-decoration: none;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.linkwrap h3{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}

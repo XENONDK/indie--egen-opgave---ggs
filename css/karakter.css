@@ -46,10 +46,11 @@
 
 .half-two{
     width: 50%;
+    
 }
 
 #image{
-  
+    border-bottom: 5px double black;
     width: 100%; 
 }
 
