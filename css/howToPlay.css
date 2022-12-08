@@ -46,12 +46,52 @@
 
   /* close span */
   .tabcontent span{
-    background-color: white;
-    color: red;
-     border-radius: 12px; 
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-top: 1px;
-    padding-bottom: 2px;
-    text-align: center;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.how-to-container{
+  background-color: #262424;
+  width: 97%;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.title{
+  font-size: clamp(20px, 40px, 78px);
+  color: white;
+  padding: 10px;
+}
+
+.how-to-text{
+  max-width: 35%;
+  text-align: center;
+  margin: auto;
+}
+
+.how-to-text h2{
+  font-size: 50px;
+  font-family: var(--oswald);
+}
+
+.how-to-text p{
+  font-size: 40px;
+  font-family: var(--oswald);
+}
+
+.basic1, .basic2, .basic3, .tech, .tech2{
+  background-color: wheat;
+  display: flex;
+  justify-content: space-between;
+}
+
+.basic2, .tech2{
+  background-color: #262424;
+  color: white;
+}
+
+.basic1 video, .basic2 video, .basic3 video, .tech video, .tech2 video{
+  width: 40%;
+  padding-right: 80px;
+  padding: 10px;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,9 @@
     <title>How to Play</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+
     <header class="header">
         <h1>Guilty Gear -Strive-</h1>
         <ul>
@@ -40,27 +42,63 @@
 
         <!-- tab content -->
         <div class="tabcontent" id="basics">
-            <h2>basics</h2>
-            <p>
-                Lorem ipsum dolor sit amet.
-                Laborum eligendi excepturi cumque modi!
-                Ex ullam unde cumque facilis.
-                Recusandae unde magnam dolores ipsam?
-                Exercitationem dignissimos ut vero dolorem?
-            </p>
-            <span onclick="this.parentElement.style.display='none'">x</span>
+            <div class="how-to-container">
+                <h2 class="title">basics</h2>
+                <div class="basic1">
+                    <div class="how-to-text">
+                        <h2>basics 01</h2>
+                        <p>Use a wide variety of attacks
+                            to damage your opponent.</p>
+                    </div>
+                    <video src="img/characters/how-to-vids/HOW TO PLAY 1.mp4" controls></video>
+                </div>
+                <div class="basic2">
+                    <div class="how-to-text">
+                        <h2>basics 02</h2>
+                        <p>
+                            A series of attacks in the corner
+                            will cause you to move to another
+                            area, resetting your positions.
+                        </p>
+                    </div>
+                    <video src="img/characters/how-to-vids/HOW TO PLAY 2.mp4" controls></video>
+                </div>
+                <div class="basic3">
+                    <div class="how-to-text">
+                        <h2>basics 03</h2>
+                        <p>
+                            When your opponent's health hits 0, that's a KO. When they lose all their Heart Icons, you've won!
+                        </p>
+                    </div>
+                    <video src="img/characters/how-to-vids/HOW TO PLAY 3.mp4" controls></video>
+                </div>
+            </div>
+            <span onclick="this.parentElement.style.display='none'">❎</span>
         </div>
 
         <div class="tabcontent" id="specials">
-            <h2>Specials</h2>
-            <p>
-                Lorem ipsum dolor sit amet.
-                Laborum eligendi excepturi cumque modi!
-                Ex ullam unde cumque facilis.
-                Recusandae unde magnam dolores ipsam?
-                Exercitationem dignissimos ut vero dolorem?
-            </p>
-            <span onclick="this.parentElement.style.display='none'">x</span>
+            <div class="how-to-container">
+            <h2 class="title">Techniques</h2>
+            <div class="tech">
+                <div class="how-to-text">
+                    <h2>Roman Cancel</h2>
+                    <p>Cancels your attack, sends a shockwave, and slows down your opponent's movement.
+                        You can use it while attacking to strengthen your offense, or use it defensively to weather your opponent's attacks.
+                        RC is a mechanic that can add depth to your matches, depending on how you use it.</p>
+                </div>
+                <video src="img/characters/how-to-vids/roman-cancel.mp4" controls></video>
+            </div>
+            <div class="tech2">
+                <div class="how-to-text">
+                    <h2>Psych burst</h2>
+                    <p>Cancels your attack, sends a shockwave, and slows down your opponent's movement.
+                        You can use it while attacking to strengthen your offense, or use it defensively to weather your opponent's attacks.
+                        RC is a mechanic that can add depth to your matches, depending on how you use it.</p>
+                </div>
+                <video src="img/characters/how-to-vids/psych-burst.mp4" controls></video>
+            </div>
+        </div>
+            <span onclick="this.parentElement.style.display='none'">❎</span>
         </div>
 
         <div class="tabcontent" id="combos">
@@ -72,7 +110,7 @@
                 Recusandae unde magnam dolores ipsam?
                 Exercitationem dignissimos ut vero dolorem?
             </p>
-            <span onclick="this.parentElement.style.display='none'">x</span>
+            <span onclick="this.parentElement.style.display='none'">❎</span>
         </div>
 
     </section>
@@ -97,4 +135,5 @@
 
     <script src="tabs.js"></script>
 </body>
+
 </html>
