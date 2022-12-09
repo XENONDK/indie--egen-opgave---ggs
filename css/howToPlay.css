@@ -82,7 +82,9 @@
 .basic1, .basic2, .basic3, .tech, .tech2{
   background-color: wheat;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap ;
 }
 
 .basic2, .tech2{
@@ -91,7 +93,10 @@
 }
 
 .basic1 video, .basic2 video, .basic3 video, .tech video, .tech2 video{
-  width: 40%;
+  width: 100%;
+  max-width: 600px;
   padding-right: 80px;
   padding: 10px;
+  height: auto;
+
 }
